@@ -499,53 +499,6 @@ header .fa-bars{
     font-size: 1.5rem;
     color:#999;
 }
-.contact .row{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    gap:1.5rem;
-    align-items: center;
-    margin-top: 5rem;
-    text-align: center;
-    padding-bottom: 7rem;;
-}
-
-.contact .row form{
-    flex: 1 1 40rem;
-    padding:2rem 2.5rem;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
-    border:.1rem solid rgba(0,0,0,.1);
-    background: #fff;
-    border-radius: .5rem;
-}
-
-.contact .row .image{
-    flex:1 1 40rem;
-}
-
-.contact .row .image img{
-    width: 100%;
-}
-
-.contact .row form .box{
-    padding:1rem;
-    font-size: 1.7rem;
-    color:#333;
-    text-transform: none;
-    border:.1rem solid rgba(0,0,0,.1);
-    border-radius: .5rem;
-    margin:.7rem 0;
-    width: 100%;
-}
-
-.contact .row form .box:focus{
-    border-color: var(--pink);
-}
-
-.contact .row form textarea{
-    height: 15rem;
-    resize: none;
-}
-
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -621,3 +574,186 @@ header .fa-bars{
 .fa-arrow-rotate-left {
     margin-left: 45px;
 }
+.main-1,
+.radios,
+.main-3 {
+  border-bottom: 1px solid rgb(155, 153, 153);
+  border-width: thin;
+  max-width: 330px;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+.main-2 {
+  line-height: 2.5rem;
+  padding-bottom: 10px;
+}
+.main-3 {
+  max-width: 525px;
+}
+.radio {
+  padding: 5px;
+
+}
+textarea {
+  margin-top: 10px;
+  margin-left: -5px;
+  font-size: 17px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  color: #000;
+  outline: none;
+  border: 1px solid rgba(80, 65, 54, 0.692);
+  padding: 5px 0 0 10px;
+}
+legend {
+  font-weight: 600;
+  font-family: "Zen Maru Gothic", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  padding: 0 5px;
+}
+fieldset {
+  border: 1px solid rgb(133, 129, 129);
+}
+select {
+  padding: 12px;
+  outline: none;
+  border: 1px solid rgb(155, 153, 153);
+  cursor: pointer;
+  border-radius: 3px;
+}
+.main-2, .main-3 {
+  margin-top: 20px;
+}
+.radio {
+  cursor: pointer;
+}
+select:focus {
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 1px 1px 1px rgb(180, 179, 179);
+  cursor: pointer;
+}
+select:hover,
+.input-user2:hover {
+  cursor: pointer;
+}
+.checkbox {
+  cursor: pointer;
+}
+.input-user:focus {
+  border: 2px solid rgb(0, 0, 0);
+  border-width: thin;
+}
+form {
+  width: 680px;
+  margin: 20px auto;
+}
+fieldset {
+  padding: 15px;
+  border-radius: 3px;
+}
+input {
+  padding-top: 17px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(146, 145, 145);
+  border-radius: 3px;
+  background-color: transparent;
+}
+input[type="text"], input[name="email"] {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+}
+input[name="email"] {
+  text-transform: lowercase;
+}
+input[type="tel"] {
+  font-size: 15px;
+}
+input:focus {
+  box-shadow: 1px 1px 1px 1px rgb(199, 198, 198);
+}
+.input-box {
+  position: relative;
+  margin-top: 30px;
+  font-weight: 600;
+  font-family: "Zen Maru Gothic", sans-serif;
+  letter-spacing: 0.1em;
+}
+.input-user {
+  width: 50%;
+  outline: none;
+  padding-right: 2.5rem;
+}
+.name-label,
+.email-label,
+.address-label,
+.tel-label {
+  position: absolute;
+  left: 2.16%;
+  top: -35%;
+  transition: all 0.3s;
+  background-color: rgb(248, 248, 239);
+  border-radius: 3px;
+  cursor: text;
+}
+.address-label,
+.tel-label {
+  top: -32%;
+}
+label {
+  padding: 0rem 0.3em;
+}
+.fa-check {
+  color: #219e08;
+  position: absolute;
+  top: 29%;
+  font-size: 19px;
+  left: 45%;
+}
+.fa-circle-xmark {
+  color: #992305;
+  position: absolute;
+  top: 19%;
+  font-size: 19px;
+  left: 45%;
+}
+#error-name,
+#error-email,
+#error-phoneNumber,
+#error-address {
+  color: #af0606;
+  padding-left: 2px;
+}
+#submit-error {
+  text-align: center;
+  background-color: #992305;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+.asterisk {
+  font-size: 18.5px;
+  padding-left: 2.5px;
+}
+.input-box .error {
+  color: #af0606; 
+  font-size: 9px;
+}
+input {
+  background: linear-gradient(rgb(218, 214, 214), rgb(226, 225, 225));
+}
+.input-box label {
+  background: linear-gradient(rgb(218, 214, 214), rgb(226, 225, 225));
+}
+
+.fa-chevron-right {
+  padding-left: 1px;
+  transition: all .2s;
+  color: rgba(0, 0, 0, 0.89);
+} 
