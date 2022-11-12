@@ -708,7 +708,7 @@ input {
   transition: all .2s;
   color: rgba(15, 14, 14, 0.89);
 } 
-.icons {
+.icons-container .icons {
     max-width: 24%;
 }
 .btn:hover > .fa-chevron-right {

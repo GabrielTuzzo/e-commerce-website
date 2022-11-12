@@ -15,7 +15,7 @@
 
 }
 @media (max-width:1275px) {
-    .icons {
+    .icons-container .icons {
         max-width: none;
     }
 }
