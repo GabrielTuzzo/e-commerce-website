@@ -1,24 +1,50 @@
-/* media queries  */
+@media (max-width:2050px) {
+    .home .content{
+        margin-bottom: 20rem;
+    }
+}
+@media (max-width:1900px) {
+    .home .content{
+        margin-bottom: 32rem;
+    }
+}
+@media (max-width:1475px) {
+    .home .content{
+        margin-bottom:45rem;
+    }
+
+}
+@media (max-width:1275px) {
+    .icons {
+        max-width: none;
+    }
+}
+@media (max-width:1200px) {
+    .home .content{
+        margin-bottom: 48rem;
+    }
+}
+
 @media (max-width:991px){
     
     html{
         font-size: 55%;
     }
-
-    header{
-        padding:2rem;
+    .home .content{
+        margin-bottom: 50rem;
     }
-
-    section{
-        padding:2rem;
-    }
-
-    .home{
-        background-position: left;
-    }
-
 }
-
+@media (max-width:991px){
+    
+   .img-banner {
+    width: 95%;
+   }
+}
+@media (max-width:837px) {
+    .icons i {
+        display: none;
+    }
+}
 @media (max-width:768px){
 
     header .fa-bars{

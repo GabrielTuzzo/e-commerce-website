@@ -242,7 +242,7 @@ header .fa-bars{
 }
 .home .content span{
     font-size: 3.5rem;
-    color: black;
+    color: rgb(8, 8, 8);
     padding:1rem 0;
     line-height: 1.5;
     opacity: 1;
@@ -757,3 +757,6 @@ input {
   transition: all .2s;
   color: rgba(0, 0, 0, 0.89);
 } 
+.icons {
+    max-width: 24%;
+}
