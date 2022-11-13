@@ -655,23 +655,23 @@ input:focus {
   top: -32%;
 }
 label {
-  padding: 0rem 0.3em;
+  padding: 1.2px 0.3em;
   font-family: "poppins";
   font-size: 14px;
 }
 .fa-check {
   color: #219e08;
   position: absolute;
-  top: 29%;
-  font-size: 19px;
-  left: 45%;
+  top: 30%;
+  font-size: 23px;
+  right: 5%;
 }
 .fa-circle-xmark {
   color: #992305;
   position: absolute;
-  top: 19%;
-  font-size: 19px;
-  left: 45%;
+  top: 20%;
+  font-size: 23px;
+  right: 4.7%;
 }
 #error-name,
 #error-email,
@@ -679,12 +679,16 @@ label {
 #error-address {
   color: #af0606;
   padding-left: 2px;
+  font-size: 15px;
+  font-family: "poppins", "Arial";
+  padding-left: 2px;
+  padding-top: 1px;
 }
 #submit-error {
   text-align: center;
   background-color: #992305;
   width: 100%;
-  margin: 0 auto;
+  margin: 5px auto;
   border-radius: 2px;
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -719,6 +723,8 @@ input {
     justify-content: center;
     padding-top: 10px;
     margin-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 #form {
     padding: 6rem 0rem;

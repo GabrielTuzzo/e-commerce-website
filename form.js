@@ -17,6 +17,8 @@ form.addEventListener('submit', (e) => {
         inputCheckphoneNumber()
         inputCheckphoneAddress()
         submitError.innerHTML = 'Please check the errors'
+        submitError.style.paddingTop = '4px'
+        submitError.style.paddingBottom = '4px'
         submitError.style.display = 'block'
         setTimeout(() => {submitError.style.display ='none'}, 2000)
         e.preventDefault()
