@@ -18,6 +18,9 @@
     .icons-container .icons {
         max-width: none;
     }
+    .icons i {
+        display: none;
+    }
 }
 @media (max-width:1200px) {
     .home .content{
@@ -68,11 +71,6 @@
    .img-banner {
     width: 95%;
    }
-}
-@media (max-width:837px) {
-    .icons i {
-        display: none;
-    }
 }
 @media (max-width:768px){
 
