@@ -27,7 +27,16 @@
         margin-bottom: 48rem;
     }
 }
-
+@media (max-width:1111px) {
+    header .logo{
+        margin-left: -30px;
+    }
+}
+@media (max-width:1050px) {
+    header .logo{
+        margin-left: -60px;
+    }
+}
 @media (max-width:991px){
     
     html{
@@ -61,6 +70,7 @@
         background:#fff;
         border:.1rem solid rgba(0,0,0,.1);
         display: block;
+        color: rgb(10, 10, 10);
     }
     header {
         max-height: 70px;

@@ -729,3 +729,8 @@ input {
 #form {
     padding: 6rem 0rem;
 }
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:rgb(240, 240, 240);
+}
