@@ -69,7 +69,12 @@ section{
     max-width: 300px;
     margin: 1rem auto;
 }
-
+.heading-2 {
+    max-width: 410px;
+}
+.heading-3 {
+    max-width: 500px;
+}
 .heading-1::after {
     content: '';
     position: absolute;
