@@ -75,6 +75,27 @@
     header {
         max-height: 70px;
     }
+    .heading-1::after {
+        width: 227px;
+        top: 7.5rem;
+    }
+    .heading-2::after {
+        width: 360px;
+        top: 7.6rem;
+    }
+    .heading-3::after {
+        width: 440px;
+        top: 7.7rem;
+    }
+    .heading-1 {
+    max-width: 200px;
+    }
+    .heading-2 {
+    max-width: 300px;
+    }
+    .heading-3 {
+    max-width: 400px;
+    }
 }
 @media (max-width:991px){
     
@@ -138,6 +159,9 @@
     .home .content h3 {
         font-size: 35px;
     }
+    .heading{
+        font-size: 3.5rem;
+    }
 }
 @media screen and (max-width: 370px){
     #form {
@@ -157,11 +181,86 @@
     html{
         font-size: 50%;
     }
-
     .heading{
-        font-size: 3rem;
+        font-size: 3.8rem;
     }
     header .logo{
         padding-left: 7rem;
+    }
+    .heading-1::after {
+        width: 200px;
+        top: 7.5rem;
+    }
+    .heading-2::after {
+        width: 315px;
+        top: 7.6rem;
+    }
+    .heading-3::after {
+        width: 360px;
+        top: 7.3rem;
+        left: 0.1rem;
+    }
+    .heading-1 {
+    max-width: 190px;
+    }
+    .heading-2 {
+    max-width: 300px;
+    }
+    .heading-3 {
+    max-width: 350px;   
+    }
+}
+@media screen and (max-width: 420px) {
+    .heading{
+        font-size: 3.5rem;
+    }
+    .heading-1::after {
+        width: 195px;
+        top: 7rem;
+    }
+    .heading-2::after {
+        width: 297px;
+        top: 7.2rem;
+    }
+    .heading-3::after {
+        width: 335px;
+        top: 7rem;
+        left: 0.1rem;
+    }
+    .heading-1 {
+    max-width: 190px;
+    }
+    .heading-2 {
+    max-width: 280px;
+    }
+    .heading-3 {
+    max-width: 350px;   
+    }
+}
+@media screen and (max-width: 390px) {
+    .heading{
+        font-size: 3.1rem;
+    }
+    .heading-1::after {
+        width: 175px;
+        top: 6.2rem;
+    }
+    .heading-2::after {
+        width: 268px;
+        top: 6.4rem;
+    }
+    .heading-3::after {
+        width: 305px;
+        top: 6.4rem;
+        left: -0.01rem;
+    }
+    .heading-1 {
+    max-width: 160px;
+    }
+    .heading-2 {
+    max-width: 270px;
+    }
+    .heading-3 {
+    max-width: 350px;   
     }
 }
