@@ -207,6 +207,12 @@
     .heading-3 {
     max-width: 350px;   
     }
+    .heading-1,
+.heading-2,
+.heading-3 {
+    text-align: center;
+    align-items: center;
+}
 }
 
 @media screen and (max-width: 540px) and (max-height: 870px) {
