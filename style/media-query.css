@@ -190,17 +190,13 @@
         padding-left: 7rem;
     }
     .heading-1::after {
-        width: 200px;
-        top: 7.5rem;
+        display: none;
     }
     .heading-2::after {
-        width: 315px;
-        top: 7.6rem;
+        display: none;
     }
     .heading-3::after {
-        width: 360px;
-        top: 7.3rem;
-        left: 0.1rem;
+        display: none;
     }
     .heading-1 {
     max-width: 190px;
@@ -213,22 +209,6 @@
     }
 }
 @media screen and (max-width: 420px) {
-    .heading{
-        font-size: 3.5rem;
-    }
-    .heading-1::after {
-        width: 195px;
-        top: 7rem;
-    }
-    .heading-2::after {
-        width: 297px;
-        top: 7.2rem;
-    }
-    .heading-3::after {
-        width: 335px;
-        top: 7rem;
-        left: 0.1rem;
-    }
     .heading-1 {
     max-width: 190px;
     }
@@ -248,19 +228,7 @@
     .heading{
         font-size: 3.1rem;
     }
-    .heading-1::after {
-        width: 165px;
-        top: 6.2rem;
-    }
-    .heading-2::after {
-        width: 275px;
-        top: 6.4rem;
-    }
-    .heading-3::after {
-        width: 305px;
-        top: 6.4rem;
-        left: -0.01rem;
-    }
+
     .heading-1 {
     max-width: 160px;
     }
