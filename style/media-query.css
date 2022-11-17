@@ -137,6 +137,18 @@
     .home .content{
         margin-bottom: 55rem;
     }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+    padding-right: 50px;
+    }
+}
+@media screen and (max-width: 500px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+    padding-right: 45px;
+    }
 }
 @media (max-width:450px){
     

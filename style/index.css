@@ -720,3 +720,11 @@ header .navbar a{
     padding:0 1.5rem;
     color:rgb(240, 240, 240);
 }
+.input-user {
+    padding-right: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding-right: 60px;
+}
