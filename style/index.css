@@ -43,7 +43,7 @@ html {
     outline: none; border:none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: .2s linear;
+    transition: 0.1s;
 }
 
 html{
